@@ -2,7 +2,7 @@ vvod = [int(a) for a in input().split()] # ввод строки
 posit = []
 negat = []
 for i in range(len(vvod)): # сортируем: из положительных и отрицательных
-    if vvod[i]>=0:          # делаем два разных списка
+    if vvod[i] >= 0:          # делаем два разных списка
         posit.append(vvod[i]**2)
     else:
         negat.append(vvod[i]**2)
